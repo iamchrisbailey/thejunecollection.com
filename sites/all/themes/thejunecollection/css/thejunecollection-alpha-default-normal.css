@@ -1,0 +1,207 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+.block-search-form .form-actions {
+	display: none;
+}
+
+.block-search-form {
+	padding: 3px;
+	background: #fff;
+	margin-top: 10px;
+	border: 1px solid #e1e1e1;
+}
+
+.block-search-form input {
+	border: 0;
+	width: 100%;
+	/*test*/
+}
+
+input.placeholder_text, textarea.placeholder_text, input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #e1e1e1;
+}
+
+ /* Blog thumbs */
+
+ .blog-thumb-wrapper {
+ 	margin-bottom: 20px;
+ 	float: left;
+ 	position: relative;
+ 	/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+ }
+
+ .blog-thumb {
+ 	position: relative;
+ 	overflow:hidden;
+ }
+
+.blog-thumb-title {
+	font-weight: 200;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 4px;
+ }
+
+.blog-thumb-stats-wrapper {
+	background: rgba(0, 0, 0, 0.1);
+ 	position: absolute;
+ 	bottom: 0px;
+ 	width: 440px;
+ 	padding: 10px;
+ 	color: #fff;
+ 	-webkit-transition: background .3s ease-in;
+ 	-moz-transition: background .3s ease-in;
+ }
+
+ .blog-thumb-wrapper:hover .blog-thumb-stats-wrapper {
+ 	background: rgba(0, 0, 0, 0.5);
+ }
+
+ .blog-thumb-date {
+ 	float: left;
+ 	font-size: 11px;
+ }
+
+ .blog-thumb-stats {
+ 	float: right;
+ }
+
+ .blog-thumb-icon {
+ 	padding: 0 5px;
+ 	float: left;
+ 	color: #fff;
+ 	font-size: 11px;
+ }
+
+ .views-row-odd {
+ 	margin-right: 20px;
+ 	float: left;
+ }
+
+ /* Blog page */
+
+ .blog-stats {
+
+ }
+
+.blog-content-wrapper {
+	position:relative;
+}
+
+.blog-content-wrapper h2 {
+	line-height: 1;
+}
+
+.blog-author-info {
+	width: 200px;
+	padding: 10px;
+	color: #999;
+	text-align: center;
+}
+
+.blog-author-info .user-picture {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.blog-author-info .user-picture img {
+	border: 3px solid #fff;
+	border-radius: 50% 50% 50% 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.blog-author-name {
+	text-transform: uppercase;
+}
+
+.blog-posted-on {
+	font-style: italic;
+	font-size: 11px;
+}
+
+.blog-meta {
+	font-size: 11px;
+	margin-bottom: 8px;
+	text-align: left;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 8px;
+}
+
+.blog-meta [class^="icon-"] {
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+.line-break {
+	height:3px;
+	background: #e1e1e1;
+	margin: 10px 0;
+}
+
+/* Footer */
+
+ .zone-footer-wrapper ul li {
+ 	list-style: none;
+ 	margin: 0;
+ }
+
+.zone-footer-wrapper {
+	color:#9acce3;
+	line-height: 20px;
+}
+
+ .zone-footer-wrapper a {
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	-moz-transition: all .2s ease-in;
+ 	-webkit-transition: all .2s ease-in;
+ }
+
+ .zone-footer-wrapper a:hover {
+ 	color:#9acce3;
+ }
+
+  .zone-footer-wrapper h1 {
+ 	font-weight: 200;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom:20px;
+	color: #9acce3;
+ }
+
+ .region-footer-first {
+ 	
+ }
+
+ .region-footer-first .block-title {
+ 	display: none;
+ }
+
+ .region-footer-second .block-title {
+ 	font-weight: 200;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom:20px;
+	font-size: 36px;
+	color: #9acce3;
+	/*text-align: right;*/
+}
+
+ .region-footer-second .block-main-menu ul {
+ 	/*text-align: right;*/
+ }
+
+.region-postscript-third {
+	
+}
+
+.footer-icons ul {
+	list-style-type: none;
+}
+
+.footer-icons [class^="icon-"] {
+	margin-right: 5px;
+}

@@ -1,0 +1,222 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+	background: #f1f1f1;
+}
+
+#page {
+	background-color: #f1f1f1;
+	}
+
+	#zone-user-wrapper {
+		background: rgba(255, 255, 255, 0.25);
+		/*box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);*/
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		z-index: 3;
+		padding: 15px 0;
+		-webkit-transition: all .2s ease-in;
+ 		-moz-transition: all .2s ease-in; 	
+		}
+			#zone-user {
+				
+				}
+					#region-user-first {
+						
+						}
+					#region-user-second {
+						
+						}
+
+	#zone-branding-wrapper {
+		
+		}
+			#zone-branding {
+				
+				}
+				#region-branding {
+					
+					}
+
+	#zone-menu-wrapper {
+			
+		}
+			#region-menu {
+				
+				}
+
+
+	#zone-header-wrapper {
+		padding-top: 80px;
+		}
+		#zone-header {
+			
+			}
+			#region-header-first {
+				
+				}
+			#region-header-second { 
+				
+				}
+
+	#zone-preface-wrapper {
+		background: url('../img/preface-bg.jpg') 50% 50%;
+		width: 100%;
+		position: fixed;
+		z-index: 1;
+		height: 250px;
+		}
+		#zone-preface {
+			
+			}
+			#region-preface-first {
+				
+				}
+			#region-preface-second {
+				
+				}
+
+			#region-preface-third {
+				
+				}
+	#zone-content-wrapper {
+		margin-top: 240px;
+		padding-top: 20px;
+		position: relative;
+		z-index: 2;
+		background: #f1f1f1;
+		}
+		#zone-content {
+			
+			}
+			#breadcrumb {
+				
+				}
+			#messages {
+				
+				}
+			#region-content {
+				
+				}
+			#region-sidebar-first {
+				
+				}
+			#region-sidebar-second {
+				
+				}
+
+		#zone-postscript-wrapper {
+			
+			}
+				#zone-postscript {
+					
+					}
+						#region-postscript-first {
+						
+						}
+						#region-postscript-second {
+						
+						}
+						#region-postscript-third {
+						
+						}
+						#region-postscript-fourth {
+						
+						}
+
+		#zone-footer-wrapper {
+			background: #015271;
+			padding: 40px 0;
+			z-index: 2;
+			}
+				#zone-footer {
+					z-index:3;
+					
+					}
+						#region-footer-first {
+							
+							}
+						#region-footer-second {
+							
+							}
+
+#page-title {
+	position: relative;
+	text-align: right;
+	display: block;
+	color: #999;
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+}
+
+#page-title:before {
+    background-color: #CCCCCC;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 75%;
+}
+
+#page-title:after {
+    left: auto;
+    right: 0;
+}
+
+.tjc-brand {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 7px 0;
+	font-size: 25px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+.june {
+	color: #00aeef;
+}
+
+.navigation {
+	text-align: right;
+	padding: 17px 0;
+}
+
+.navigation a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #9acce3;
+	-moz-transition: all .2s ease-in;
+ 	-webkit-transition: all .2s ease-in;
+}
+
+.navigation a:hover {
+	color: #000;
+}
+
+.DDI {
+	padding: 120px 0;
+	color:#fff;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	text-transform:uppercase;
+}
+
+.stickem-container {
+  position: relative;
+}
+
+.stickit {
+    position: fixed;
+    top: 50px;
+}
+
+.stickit-end {
+
+}
